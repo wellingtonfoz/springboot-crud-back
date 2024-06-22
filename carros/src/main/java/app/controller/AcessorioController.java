@@ -21,7 +21,7 @@ import app.service.AcessorioService;
 
 @RestController
 @RequestMapping("/api/acessorio")
-@CrossOrigin("*")
+@CrossOrigin(origins = "*")
 public class AcessorioController {
 	
 	@Autowired

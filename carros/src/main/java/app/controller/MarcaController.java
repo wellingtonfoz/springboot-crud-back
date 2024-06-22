@@ -21,7 +21,7 @@ import app.service.MarcaService;
 
 @RestController
 @RequestMapping("/api/marca")
-@CrossOrigin("*")
+@CrossOrigin(origins = "*")
 public class MarcaController {
 	
 	@Autowired

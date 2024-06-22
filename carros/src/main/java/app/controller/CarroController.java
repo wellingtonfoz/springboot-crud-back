@@ -21,7 +21,7 @@ import app.service.CarroService;
 
 @RestController
 @RequestMapping("/api/carro")
-@CrossOrigin("*")
+@CrossOrigin(origins = "*")
 public class CarroController {
 	
 	@Autowired
